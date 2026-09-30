@@ -462,6 +462,7 @@ export default function Home() {
                     src={src}
                     alt={`Trabalho San'cruz ${i + 1}`}
                     fill
+                    unoptimized={true}
                     className="object-cover hover:scale-105 transition-transform duration-500"
                     sizes="280px"
                   />
@@ -493,6 +494,7 @@ export default function Home() {
                     src={src}
                     alt={`Trabalho San'cruz ${i + 7}`}
                     fill
+                    unoptimized={true}
                     className="object-cover hover:scale-105 transition-transform duration-500"
                     sizes="280px"
                   />
