@@ -3,7 +3,7 @@ export const businessConfig = {
   ownerName: "Wanderson Santos",
   phone: "+55 31 9164-7343",
   whatsapp: "553191647343", // Somente números para link
-  instagram: "@sancruzclimatizacao", // Placeholder se houver
+  instagram: "https://www.instagram.com/sancruz.climatizacao/",
   email: "contato@sancruzclimatizacao.com.br",
   websiteUrl: "https://lp-san-cruz.vercel.app",
   city: "Belo Horizonte e Região",
