@@ -327,41 +327,6 @@ export default function Home() {
           </div>
         </section>
 
-        {/* OFERTA */}
-        <section className="py-24 bg-corporate-800 text-white shadow-inner">
-          <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-            <h2 className="text-4xl md:text-5xl font-extrabold mb-6 text-white drop-shadow-md">
-              Primeiro você entende. <span className="text-corporate-300">Depois decide.</span>
-            </h2>
-            <p className="text-xl md:text-2xl font-medium text-slate-100 max-w-3xl mx-auto mb-12 leading-relaxed">
-              Solicitando atendimento em Belo Horizonte, você recebe avaliação, diagnóstico e orçamento antes da execução do serviço.
-            </p>
-            
-            <div className="flex flex-col md:flex-row justify-center gap-8 md:gap-12 mb-14">
-              <div className="flex items-center justify-center gap-3">
-                <CheckCircle2 className="text-whatsapp-400 w-8 h-8 shrink-0" />
-                <span className="text-lg md:text-xl font-bold">Visita sem custo em BH</span>
-              </div>
-              <div className="flex items-center justify-center gap-3">
-                <CheckCircle2 className="text-whatsapp-400 w-8 h-8 shrink-0" />
-                <span className="text-lg md:text-xl font-bold">Diagnóstico do equipamento</span>
-              </div>
-              <div className="flex items-center justify-center gap-3">
-                <CheckCircle2 className="text-whatsapp-400 w-8 h-8 shrink-0" />
-                <span className="text-lg md:text-xl font-bold">Orçamento antes da execução</span>
-              </div>
-            </div>
-            
-            <a
-              href={getWhatsAppLink("Olá! Gostaria de solicitar uma avaliação sem compromisso.")}
-              target="_blank" rel="noopener noreferrer"
-              className="inline-flex items-center justify-center gap-3 bg-whatsapp-500 text-white px-8 md:px-12 py-5 rounded-full text-lg md:text-xl font-extrabold tracking-wide hover:bg-whatsapp-600 transition-all hover:scale-105 shadow-[0_8px_30px_rgb(34,197,94,0.3)] animate-heartbeat hover:animate-none"
-            >
-              <Image src="/images/icone do whatsapp.png" alt="WhatsApp" width={28} height={28} className="brightness-0 invert object-contain" />
-              Solicitar avaliação pelo WhatsApp
-            </a>
-          </div>
-        </section>
 
 
         {/* HOW IT WORKS */}

@@ -6,11 +6,23 @@ import { businessConfig } from "@/config/business";
 const instrumentSans = Instrument_Sans({ subsets: ["latin"], weight: ["400", "500", "600", "700"] });
 
 export const metadata: Metadata = {
-  title: `${businessConfig.businessName} | Instalação e Manutenção de Ar-Condicionado em BH`,
-  description: "Especialistas em instalação, manutenção e higienização de ar-condicionado em Belo Horizonte (BH). Atendimento residencial e empresarial. Orçamento via WhatsApp!",
-  keywords: "ar condicionado bh, instalação ar condicionado belo horizonte, manutenção ar condicionado bh, climatização comercial, limpar ar condicionado bh, tecnico ar condicionado bh",
+  metadataBase: new URL(businessConfig.websiteUrl),
+  title: {
+    default: `${businessConfig.businessName} | Especialistas em Ar-Condicionado em BH`,
+    template: `%s | ${businessConfig.businessName}`
+  },
+  description: "Instalação, manutenção preventiva e higienização de ar-condicionado em Belo Horizonte (BH). Atendimento residencial e empresarial. Sem taxa de visita. Orçamento via WhatsApp!",
+  keywords: ["ar condicionado bh", "instalação ar condicionado belo horizonte", "manutenção ar condicionado bh", "higienização de ar condicionado", "climatização comercial", "tecnico ar condicionado bh", "conserto ar condicionado bh", "pmoc bh"],
+  authors: [{ name: businessConfig.ownerName }],
+  creator: businessConfig.businessName,
+  publisher: businessConfig.businessName,
+  formatDetection: {
+    email: false,
+    address: false,
+    telephone: false,
+  },
   alternates: {
-    canonical: "https://sancruzclimatizacao.com.br",
+    canonical: "/",
   },
   icons: {
     icon: [
@@ -19,12 +31,38 @@ export const metadata: Metadata = {
     apple: "/images/logo.png",
     shortcut: "/images/logo.png",
   },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  },
   openGraph: {
+    type: "website",
+    locale: "pt_BR",
+    url: "/",
+    siteName: businessConfig.businessName,
     title: `${businessConfig.businessName} | Especialistas em Ar-Condicionado em BH`,
-    description: "Instalação e manutenção de ar-condicionado em Belo Horizonte. Isenção de taxa de visita para BH. Fale com a gente no WhatsApp!",
-    locale: 'pt_BR',
-    type: 'website',
-    images: [{ url: "https://sancruzclimatizacao.com.br/images/logo.png" }],
+    description: "Instalação, manutenção preventiva e higienização de ar-condicionado em Belo Horizonte (BH). Atendimento rápido sem taxa de visita.",
+    images: [
+      {
+        url: "/images/hero_ac_tech.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Técnico da San'cruz Climatização realizando manutenção em ar-condicionado em Belo Horizonte",
+      }
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: `${businessConfig.businessName} | Ar-Condicionado em BH`,
+    description: "Instalação, manutenção e higienização de ar-condicionado em Belo Horizonte (BH).",
+    images: ["/images/hero_ac_tech.jpg"],
   }
 };
 

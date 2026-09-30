@@ -5,6 +5,7 @@ export const businessConfig = {
   whatsapp: "553191647343", // Somente números para link
   instagram: "@sancruzclimatizacao", // Placeholder se houver
   email: "contato@sancruzclimatizacao.com.br",
+  websiteUrl: "https://lp-san-cruz.vercel.app",
   city: "Belo Horizonte e Região",
   serviceAreas: ["Belo Horizonte", "Contagem", "Betim", "Nova Lima", "Região Metropolitana"],
   address: "Atendimento em domicílio e empresas",
