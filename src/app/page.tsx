@@ -359,27 +359,7 @@ export default function Home() {
           </div>
         </section>
 
-        {/* ENTERPRISE SECTION */}
-        <section id="empresas" className="py-20 bg-white border-t border-slate-100">
-          <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="flex flex-col md:flex-row items-center gap-10">
-              <div className="flex-1 text-center md:text-left">
-                <span className="inline-block text-xs font-bold tracking-[0.2em] text-corporate-800 uppercase mb-3">Ar-condicionado Comercial</span>
-                <h2 className="text-3xl md:text-4xl font-extrabold text-slate-900 mb-4">Climatização para Empresas em BH</h2>
-                <p className="text-slate-500 mb-6 text-lg">
-                  Atendemos clínicas, escritórios, lojas e galpões. Oferecemos instalação técnica em larga escala, manutenção preventiva com contrato e adequação ao PMOC.
-                </p>
-                <a
-                  href={getWhatsAppLink("Olá! Vim pelo site da San'Cruz e gostaria de falar sobre atendimento de ar-condicionado para minha empresa.")}
-                  target="_blank" rel="noopener noreferrer"
-                  className="inline-flex items-center justify-center gap-2.5 bg-corporate-800 text-white px-8 py-4 rounded-xl font-extrabold uppercase tracking-wide hover:bg-corporate-900 transition-all shadow-md"
-                >
-                  Falar com um técnico
-                </a>
-              </div>
-            </div>
-          </div>
-        </section>
+
 
 
 
