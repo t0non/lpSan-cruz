@@ -13,30 +13,9 @@ import {
 export default function Home() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [showMobileCta, setShowMobileCta] = useState(true);
-  const [isHeaderVisible, setIsHeaderVisible] = useState(true);
-  const [lastScrollY, setLastScrollY] = useState(0);
-
-  useEffect(() => {
-    const handleScroll = () => {
-      const currentScrollY = window.scrollY;
-      
-      // Hide header when scrolling down, show when scrolling up
-      if (currentScrollY > lastScrollY && currentScrollY > 100) {
-        setIsHeaderVisible(false);
-      } else {
-        setIsHeaderVisible(true);
-      }
-      
-      setLastScrollY(currentScrollY);
-    };
-
-    window.addEventListener("scroll", handleScroll, { passive: true });
-    return () => window.removeEventListener("scroll", handleScroll);
-  }, [lastScrollY]);
-
   return (
     <div className="flex flex-col min-h-screen">
-      <div className={`sticky top-0 z-[60] w-full flex flex-col transition-transform duration-300 ${isHeaderVisible ? 'translate-y-0' : '-translate-y-full'}`}>
+      <div className="sticky top-0 z-[60] w-full flex flex-col shadow-sm">
         {/* ANNOUNCEMENT BAR */}
         <div className="bg-red-600 text-white text-center py-2 px-3 text-[11px] sm:text-xs font-bold tracking-wide shadow-sm">
           SEM TAXA DE VISITA EM BH + 10% OFF NO PRIMEIRO SERVIÇO!
