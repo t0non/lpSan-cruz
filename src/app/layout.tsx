@@ -8,10 +8,10 @@ const instrumentSans = Instrument_Sans({ subsets: ["latin"], weight: ["400", "50
 export const metadata: Metadata = {
   metadataBase: new URL(businessConfig.websiteUrl),
   title: {
-    default: `${businessConfig.businessName} | Especialistas em Ar-Condicionado em BH`,
+    default: "Ar-Condicionado em BH | Instalação e Manutenção | San'Cruz",
     template: `%s | ${businessConfig.businessName}`
   },
-  description: "Instalação, manutenção preventiva e higienização de ar-condicionado em Belo Horizonte (BH). Atendimento residencial e empresarial. Sem taxa de visita. Orçamento via WhatsApp!",
+  description: "Instalação, manutenção, conserto e higienização de ar-condicionado em Belo Horizonte e região. Atendimento residencial e comercial. Solicite seu orçamento.",
   keywords: ["ar condicionado bh", "instalação ar condicionado belo horizonte", "manutenção ar condicionado bh", "higienização de ar condicionado", "climatização comercial", "tecnico ar condicionado bh", "conserto ar condicionado bh", "pmoc bh"],
   authors: [{ name: businessConfig.ownerName }],
   creator: businessConfig.businessName,
@@ -47,8 +47,8 @@ export const metadata: Metadata = {
     locale: "pt_BR",
     url: "/",
     siteName: businessConfig.businessName,
-    title: `${businessConfig.businessName} | Especialistas em Ar-Condicionado em BH`,
-    description: "Instalação, manutenção preventiva e higienização de ar-condicionado em Belo Horizonte (BH). Atendimento rápido sem taxa de visita.",
+    title: "Ar-Condicionado em BH | Instalação e Manutenção | San'Cruz",
+    description: "Instalação, manutenção, conserto e higienização de ar-condicionado em Belo Horizonte e região. Atendimento residencial e comercial. Solicite seu orçamento.",
     images: [
       {
         url: "/images/hero_ac_tech.jpg",

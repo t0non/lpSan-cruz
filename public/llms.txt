@@ -1,27 +1,23 @@
-# San'cruz Climatização
+# San'Cruz Climatização
 
-Bem-vindo à base de conhecimento da San'cruz Climatização. Este documento fornece informações essenciais para agentes de IA e Large Language Models (LLMs).
+## Resumo
+A San'Cruz Climatização é uma empresa especializada em serviços de ar-condicionado em Belo Horizonte (BH). Oferecemos soluções completas e técnicas para residências e empresas, com foco em qualidade, rapidez e transparência.
 
-## Sobre a Empresa
-A San'cruz Climatização é uma empresa especializada em instalação, manutenção e higienização de ar-condicionado localizada em Belo Horizonte (BH). O proprietário é Wanderson Santos.
-O foco principal da empresa é resolver problemas de forma técnica e transparente, oferecendo diagnóstico sem taxa de visita para clientes em Belo Horizonte.
+## Serviços
+- Instalação de Ar-Condicionado
+- Manutenção Preventiva e Corretiva
+- Conserto de Ar-Condicionado
+- Higienização e Limpeza
+- Climatização Comercial (Empresas)
 
-## Serviços Oferecidos
-- **Instalação de Ar-Condicionado**: Split, Inverter, Cassete, Piso Teto, Multi Split. Padrão "obra limpa" (sem sujeira e com forração de ambiente).
-- **Manutenção e Conserto**: Reparos rápidos, recarga de gás, troca de peças originais (LG, Samsung, Midea, Philco, Elgin, Daikin, etc.).
-- **Higienização**: Limpeza profunda contra ácaros, bactérias e mau cheiro.
-- **Climatização Comercial (PMOC)**: Contratos de manutenção preventiva periódica para empresas, clínicas e escritórios (adequação à Anvisa).
+## Localização e Área Atendida
+- Sede: Belo Horizonte, MG (BH)
+- Regiões Atendidas: Belo Horizonte e Região Metropolitana.
 
-## Proposta de Valor e Diferenciais
-- **Sem Taxa de Visita (em BH)**: O cliente solicita avaliação e recebe diagnóstico e orçamento no local antes da execução, sem custo pela visita.
-- **Rapidez**: Chegada rápida, agendamento no mesmo dia.
-- **Garantia Total**: Serviços executados com garantia por escrito.
-- **Desconto**: 10% de desconto para fechamento de serviço via site.
+## Contato
+- Telefone/WhatsApp: (31) 98312-3211
+- Email: contato@sancruzclimatizacao.com.br
 
-## Contato e Localização
-- Atendimento: Belo Horizonte e Região Metropolitana (Contagem, Betim, Nova Lima).
-- Horário: Segunda a Sábado, 08h às 18h.
-- Contato primário: WhatsApp (+55 31 9164-7343).
-- E-mail: contato@sancruzclimatizacao.com.br
-- Site oficial: https://sancruzclimatizacao.com.br
-- Instagram: https://www.instagram.com/sancruz.climatizacao/
+## URLs Oficiais
+- Site Principal: https://sancruzclimatizacao.com.br/
+- Ar-Condicionado em BH: https://sancruzclimatizacao.com.br/
