@@ -54,7 +54,7 @@ export default function Home() {
             <Link href="#trabalhos" className="text-sm font-medium text-slate-600 hover:text-corporate-800 transition-colors">Trabalhos</Link>
             <Link href="#sobre" className="text-sm font-medium text-slate-600 hover:text-corporate-800 transition-colors">Sobre</Link>
             <a 
-              href={getWhatsAppLink("Olá! Gostaria de solicitar um orçamento.")} 
+              href={getWhatsAppLink("Olá! Vim pelo site da San'Cruz e gostaria de solicitar um orçamento para ar-condicionado.")} 
               target="_blank" 
               rel="noopener noreferrer"
               className="bg-corporate-800 text-white px-6 py-2.5 rounded-md text-sm font-semibold hover:bg-corporate-900 transition-colors"
@@ -130,7 +130,7 @@ export default function Home() {
 
                 {/* CTA — formato e proporção idênticos à imagem de referência */}
                 <a
-                  href={getWhatsAppLink("Olá! Encontrei a San'Cruz pelo site e gostaria de solicitar atendimento para meu ar-condicionado.")}
+                  href={getWhatsAppLink("Olá! Vim pelo site da San'Cruz e gostaria de solicitar um orçamento para ar-condicionado.")}
                   target="_blank"
                   rel="noopener noreferrer"
                   onClick={() => { if (typeof window !== 'undefined' && (window as any).dataLayer) { (window as any).dataLayer.push({ event: 'hero_whatsapp_click' }); } }}
@@ -240,7 +240,7 @@ export default function Home() {
             {/* CTA Button */}
             <div className="flex justify-center">
               <a
-                href={getWhatsAppLink("Olá! Gostaria de agendar um orçamento para meu ar-condicionado.")}
+                href={getWhatsAppLink("Olá! Vim pelo site da San'Cruz e gostaria de solicitar um orçamento para ar-condicionado.")}
                 target="_blank"
                 rel="noopener noreferrer"
                 onClick={() => { if (typeof window !== 'undefined' && (window as any).dataLayer) { (window as any).dataLayer.push({ event: 'trust_cta_click' }); } }}
@@ -290,7 +290,7 @@ export default function Home() {
 
               {/* Card 1 — Instalação */}
               <a
-                href={getWhatsAppLink("Olá! Comprei um ar-condicionado e gostaria de solicitar um orçamento para instalação.")}
+                href={getWhatsAppLink("Olá! Vim pelo site da San'Cruz e quero um orçamento para instalação de ar-condicionado.")}
                 target="_blank" rel="noopener noreferrer"
                 onClick={() => { if (typeof window !== 'undefined' && (window as any).dataLayer) { (window as any).dataLayer.push({ event: 'installation_quote_click' }); } }}
                 className="group bg-white border border-slate-200 rounded-2xl p-8 flex flex-col items-center text-center md:items-start md:text-left gap-5 hover:border-corporate-800 hover:shadow-lg transition-all duration-200"
@@ -312,7 +312,7 @@ export default function Home() {
 
               {/* Card 2 — Manutenção */}
               <a
-                href={getWhatsAppLink("Olá! Meu ar-condicionado está com problema e gostaria de solicitar uma manutenção.")}
+                href={getWhatsAppLink("Olá! Vim pelo site da San'Cruz e preciso de manutenção no meu ar-condicionado. Ele está apresentando um problema.")}
                 target="_blank" rel="noopener noreferrer"
                 onClick={() => { if (typeof window !== 'undefined' && (window as any).dataLayer) { (window as any).dataLayer.push({ event: 'maintenance_quote_click' }); } }}
                 className="group bg-white border border-slate-200 rounded-2xl p-8 flex flex-col items-center text-center md:items-start md:text-left gap-5 hover:border-corporate-800 hover:shadow-lg transition-all duration-200"
@@ -334,7 +334,7 @@ export default function Home() {
 
               {/* Card 3 — Higienização */}
               <a
-                href={getWhatsAppLink("Olá! Gostaria de solicitar um orçamento para higienização do meu ar-condicionado.")}
+                href={getWhatsAppLink("Olá! Vim pelo site da San'Cruz e gostaria de solicitar um orçamento para higienização do meu ar-condicionado.")}
                 target="_blank" rel="noopener noreferrer"
                 onClick={() => { if (typeof window !== 'undefined' && (window as any).dataLayer) { (window as any).dataLayer.push({ event: 'cleaning_quote_click' }); } }}
                 className="group bg-white border border-slate-200 rounded-2xl p-8 flex flex-col items-center text-center md:items-start md:text-left gap-5 hover:border-corporate-800 hover:shadow-lg transition-all duration-200"
@@ -370,7 +370,7 @@ export default function Home() {
                   Atendemos clínicas, escritórios, lojas e galpões. Oferecemos instalação técnica em larga escala, manutenção preventiva com contrato e adequação ao PMOC.
                 </p>
                 <a
-                  href={getWhatsAppLink("Olá! Gostaria de falar sobre climatização para minha empresa.")}
+                  href={getWhatsAppLink("Olá! Vim pelo site da San'Cruz e gostaria de falar sobre atendimento de ar-condicionado para minha empresa.")}
                   target="_blank" rel="noopener noreferrer"
                   className="inline-flex items-center justify-center gap-2.5 bg-corporate-800 text-white px-8 py-4 rounded-xl font-extrabold uppercase tracking-wide hover:bg-corporate-900 transition-all shadow-md"
                 >
@@ -445,7 +445,7 @@ export default function Home() {
             {/* CTA */}
             <div className="flex justify-center">
               <a
-                href={getWhatsAppLink("Olá! Encontrei a San'Cruz pelo site e gostaria de solicitar um atendimento.")}
+                href={getWhatsAppLink("Olá! Vim pelo site da San'Cruz e gostaria de solicitar um orçamento para ar-condicionado.")}
                 target="_blank" rel="noopener noreferrer"
                 className="flex w-full sm:w-auto items-center justify-center gap-2.5 bg-whatsapp-500 text-white px-6 sm:px-10 py-4 sm:py-5 rounded-xl text-sm sm:text-base font-extrabold tracking-wide uppercase whitespace-nowrap hover:bg-whatsapp-600 transition-all hover:shadow-xl hover:shadow-whatsapp-500/30 hover:scale-[1.02]"
               >
@@ -658,7 +658,7 @@ export default function Home() {
 
                 {/* Botão — larg total, igual referência */}
                 <a
-                  href={getWhatsAppLink("Olá! Gostaria de tirar uma dúvida ou solicitar um orçamento.")}
+                  href={getWhatsAppLink("Olá! Vi os serviços da San'Cruz pelo site e gostaria de receber um orçamento.")}
                   target="_blank" rel="noopener noreferrer"
                   className="flex w-full items-center justify-center gap-3 bg-whatsapp-500 text-white px-6 py-4 rounded-xl text-sm sm:text-base font-extrabold tracking-widest uppercase hover:bg-whatsapp-600 transition-all hover:scale-[1.01] shadow-md shadow-whatsapp-500/20"
                 >
@@ -785,7 +785,7 @@ export default function Home() {
 
       {/* FLOATING WHATSAPP - DESKTOP */}
       <a 
-        href={getWhatsAppLink("Olá! Acessei o site e gostaria de tirar uma dúvida.")}
+        href={getWhatsAppLink("Olá! Vim pelo site da San'Cruz e gostaria de solicitar um orçamento para ar-condicionado.")}
         target="_blank" rel="noopener noreferrer"
         className="hidden md:flex fixed bottom-6 right-6 hover:scale-110 transition-transform z-50"
         aria-label="Falar no WhatsApp"
@@ -796,7 +796,7 @@ export default function Home() {
       {/* MOBILE STICKY CTA */}
       <div className={`md:hidden fixed bottom-4 left-4 right-4 z-50 transition-all duration-500 transform ${showMobileCta ? 'translate-y-0 opacity-100' : 'translate-y-24 opacity-0 pointer-events-none'}`}>
         <a 
-          href={getWhatsAppLink("Olá! Gostaria de aproveitar a taxa de visita grátis e solicitar um orçamento.")}
+          href={getWhatsAppLink("Olá! Vi os serviços da San'Cruz pelo site e gostaria de receber um orçamento.")}
           target="_blank" rel="noopener noreferrer"
           className="flex items-center justify-center gap-3 w-full bg-whatsapp-500 text-white py-4 rounded-full font-extrabold text-lg shadow-[0_8px_30px_rgb(34,197,94,0.4)] hover:bg-whatsapp-600 transition-colors animate-heartbeat"
         >
