@@ -36,14 +36,15 @@ export default function Home() {
 
   return (
     <div className="flex flex-col min-h-screen">
-      {/* ANNOUNCEMENT BAR */}
-      <div className="bg-red-600 text-white text-center py-2 px-3 text-[11px] sm:text-xs font-bold tracking-wide shadow-sm relative z-[60]">
-        SEM TAXA DE VISITA EM BH + 10% OFF NO PRIMEIRO SERVIÇO!
-      </div>
+      <div className={`sticky top-0 z-[60] w-full flex flex-col transition-transform duration-300 ${isHeaderVisible ? 'translate-y-0' : '-translate-y-full'}`}>
+        {/* ANNOUNCEMENT BAR */}
+        <div className="bg-red-600 text-white text-center py-2 px-3 text-[11px] sm:text-xs font-bold tracking-wide shadow-sm">
+          SEM TAXA DE VISITA EM BH + 10% OFF NO PRIMEIRO SERVIÇO!
+        </div>
 
-      {/* HEADER */}
-      <header className={`sticky top-0 z-50 w-full bg-white/95 backdrop-blur-md border-b border-slate-100 transition-transform duration-300 ${isHeaderVisible ? 'translate-y-0' : '-translate-y-full'}`}>
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 md:h-20 flex items-center justify-between">
+        {/* HEADER */}
+        <header className="w-full bg-white/95 backdrop-blur-md border-b border-slate-100 shadow-sm">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 md:h-20 flex items-center justify-between">
           <Link href="#inicio" className="flex items-center py-2">
             <Image src="/images/logo.png" alt="San'cruz Climatização" width={220} height={74} className="object-contain h-10 sm:h-12 md:h-16 w-auto" priority />
           </Link>
@@ -93,6 +94,7 @@ export default function Home() {
           </div>
         )}
       </header>
+      </div>
 
       <main className="flex-grow">
         {/* HERO SECTION */}
