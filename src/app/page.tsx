@@ -15,14 +15,13 @@ export default function Home() {
   const [showMobileCta, setShowMobileCta] = useState(true);
   return (
     <div className="flex flex-col min-h-screen">
-      <div className="sticky top-0 z-[60] w-full flex flex-col shadow-sm">
-        {/* ANNOUNCEMENT BAR */}
-        <div className="bg-red-600 text-white text-center py-2 px-3 text-[11px] sm:text-xs font-bold tracking-wide shadow-sm">
-          SEM TAXA DE VISITA EM BH + 10% OFF NO PRIMEIRO SERVIÇO!
-        </div>
+      {/* ANNOUNCEMENT BAR */}
+      <div className="sticky top-0 z-[60] w-full bg-red-600 text-white text-center py-2 px-3 text-[11px] sm:text-xs font-bold tracking-wide shadow-sm">
+        SEM TAXA DE VISITA EM BH + 10% OFF NO PRIMEIRO SERVIÇO!
+      </div>
 
-        {/* HEADER */}
-        <header className="w-full bg-white/95 backdrop-blur-md border-b border-slate-100 shadow-sm">
+      {/* HEADER */}
+      <header className="w-full bg-white/95 backdrop-blur-md border-b border-slate-100 shadow-sm relative z-50">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 md:h-20 flex items-center justify-between">
           <Link href="#inicio" className="flex items-center py-2">
             <Image src="/images/logo.png" alt="San'cruz Climatização" width={220} height={74} className="object-contain h-10 sm:h-12 md:h-16 w-auto" priority />
@@ -30,7 +29,6 @@ export default function Home() {
           <nav className="hidden md:flex items-center gap-8">
             <Link href="#inicio" className="text-sm font-medium text-slate-600 hover:text-corporate-800 transition-colors">Início</Link>
             <Link href="#servicos" className="text-sm font-medium text-slate-600 hover:text-corporate-800 transition-colors">Serviços</Link>
-            <Link href="#empresas" className="text-sm font-medium text-corporate-800 hover:text-corporate-900 transition-colors">Para Empresas</Link>
             <Link href="#trabalhos" className="text-sm font-medium text-slate-600 hover:text-corporate-800 transition-colors">Trabalhos</Link>
             <Link href="#sobre" className="text-sm font-medium text-slate-600 hover:text-corporate-800 transition-colors">Sobre</Link>
             <a 
@@ -58,7 +56,6 @@ export default function Home() {
           <div className="md:hidden bg-white border-b border-slate-200 px-4 pt-3 pb-6 space-y-3 shadow-xl">
             <Link onClick={() => setMobileMenuOpen(false)} href="#inicio" className="block py-2 text-base font-semibold text-slate-700">Início</Link>
             <Link onClick={() => setMobileMenuOpen(false)} href="#servicos" className="block py-2 text-base font-semibold text-slate-700">Serviços</Link>
-            <Link onClick={() => setMobileMenuOpen(false)} href="#empresas" className="block py-2 text-base font-semibold text-corporate-800">Para Empresas</Link>
             <Link onClick={() => setMobileMenuOpen(false)} href="#trabalhos" className="block py-2 text-base font-semibold text-slate-700">Trabalhos</Link>
             <Link onClick={() => setMobileMenuOpen(false)} href="#sobre" className="block py-2 text-base font-semibold text-slate-700">Sobre</Link>
             <a 
@@ -73,7 +70,6 @@ export default function Home() {
           </div>
         )}
       </header>
-      </div>
 
       <main className="flex-grow">
         {/* HERO SECTION */}
