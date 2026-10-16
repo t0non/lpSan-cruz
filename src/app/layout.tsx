@@ -63,6 +63,9 @@ export const metadata: Metadata = {
     title: `${businessConfig.businessName} | Ar-Condicionado em BH`,
     description: "Instalação, manutenção e higienização de ar-condicionado em Belo Horizonte (BH).",
     images: ["/images/hero_ac_tech.jpg"],
+  },
+  verification: {
+    google: "_pISjLUJuAC9w8fjJ54J_LLXI_rSab9QWF3jqzoZBVs",
   }
 };
 
