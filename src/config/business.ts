@@ -4,8 +4,8 @@ export const businessConfig = {
   phone: "+55 31 9164-7343",
   whatsapp: "553191647343", // Somente números para link
   instagram: "https://www.instagram.com/sancruz.climatizacao/",
-  email: "contato@sancruzclimatizacao.com.br",
-  websiteUrl: "https://sancruzclimatizacao.com.br",
+  email: "contato@sancruzclimatizacaobh.com.br",
+  websiteUrl: "https://sancruzclimatizacaobh.com.br",
   city: "Belo Horizonte e Região",
   serviceAreas: ["Belo Horizonte", "Contagem", "Betim", "Nova Lima", "Região Metropolitana"],
   address: "Atendimento em domicílio e empresas",

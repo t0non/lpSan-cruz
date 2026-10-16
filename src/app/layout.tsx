@@ -70,15 +70,23 @@ const jsonLd = {
   "@context": "https://schema.org",
   "@type": "HVACBusiness",
   "name": businessConfig.businessName,
-  "image": "https://sancruzclimatizacao.com.br/images/logo.png",
-  "url": "https://sancruzclimatizacao.com.br",
+  "image": `${businessConfig.websiteUrl}/images/logo.png`,
+  "url": businessConfig.websiteUrl,
   "telephone": businessConfig.phone,
+  "email": businessConfig.email,
+  "sameAs": [
+    businessConfig.instagram
+  ],
   "address": {
     "@type": "PostalAddress",
     "addressLocality": "Belo Horizonte",
     "addressRegion": "MG",
     "addressCountry": "BR"
   },
+  "areaServed": businessConfig.serviceAreas.map((area) => ({
+    "@type": "City",
+    "name": area
+  })),
   "geo": {
     "@type": "GeoCoordinates",
     "latitude": -19.9208,
@@ -92,7 +100,41 @@ const jsonLd = {
     "opens": "08:00",
     "closes": "18:00"
   },
-  "priceRange": "$$"
+  "priceRange": "$$",
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Serviços de Climatização em BH",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Instalação de Ar-Condicionado em BH"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Manutenção Preventiva e Corretiva de Ar-Condicionado"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Higienização Profunda de Ar-Condicionado"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Climatização Comercial e PMOC"
+        }
+      }
+    ]
+  }
 };
 
 export default function RootLayout({

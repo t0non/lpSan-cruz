@@ -23,7 +23,7 @@ export const services = [
     shortDescription: "Diagnóstico preciso e reparo de problemas no seu sistema de climatização.",
     icon: CheckCircle2,
     whatsappMessage: "Olá! Preciso de manutenção em um ar-condicionado que apresenta problemas.",
-    features: ["Diagnóstico rápido", "Troca de peças", "Correção de vazamentos", "Equipamento testado"]
+    features: ["Diagnóstico preciso", "Troca de peças", "Correção de vazamentos", "Equipamento testado"]
   },
   {
     id: "higienizacao",

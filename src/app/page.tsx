@@ -82,7 +82,7 @@ export default function Home() {
 
                 {/* Badge — azul, estilo referência */}
                 <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-corporate-800 text-white text-[11px] sm:text-xs font-bold tracking-wider uppercase mb-3 sm:mb-4">
-                  Atendimento Hoje em BH
+                  Atendimento em Belo Horizonte e Região
                 </div>
 
                 {/* Headline — grande, palavras-chave em azul */}
@@ -99,9 +99,9 @@ export default function Home() {
                 <p className="text-xs sm:text-sm md:text-base text-slate-600 leading-snug sm:leading-relaxed mb-4 sm:mb-6 max-w-lg">
                   Não cobramos{" "}
                   <strong className="text-corporate-800">TAXA DE VISITA</strong>{" "}
-                  em Belo Horizonte. Chegamos em{" "}
-                  <strong className="text-corporate-800">30 minutos</strong>{" "}
-                  e você só paga se fechar o orçamento. Agendamento rápido pelo WhatsApp com{" "}
+                  em Belo Horizonte para orçamentos aprovados.{" "}
+                  <strong className="text-corporate-800">Atendimento mediante agendamento</strong>{" "}
+                  conforme a disponibilidade da equipe. Solicite seu orçamento pelo WhatsApp com{" "}
                   <strong className="text-green-600">10% de DESCONTO.</strong>
                 </p>
 
@@ -113,7 +113,7 @@ export default function Home() {
                   onClick={() => { if (typeof window !== 'undefined' && (window as any).dataLayer) { (window as any).dataLayer.push({ event: 'hero_whatsapp_click' }); } }}
                   className="flex w-full sm:w-auto items-center justify-center bg-whatsapp-500 text-white px-4 sm:px-8 py-3.5 sm:py-4 rounded-xl text-xs sm:text-sm md:text-base font-extrabold tracking-wide uppercase whitespace-nowrap shadow-md hover:bg-whatsapp-600 transition-all hover:scale-[1.01]"
                 >
-                  Pedir uma visita técnica agora
+                  Agende sua visita técnica
                 </a>
 
               </div>
@@ -181,17 +181,17 @@ export default function Home() {
                 </div>
               </div>
 
-              {/* Card 2 — Atendimento Rápido */}
+              {/* Card 2 — Atendimento Agendado */}
               <div className="bg-white border border-slate-200 rounded-2xl p-10 flex flex-col gap-5 items-center text-center md:items-start md:text-left">
                 <div className="w-32 h-32 mb-2 flex items-center justify-center">
-                  <Image src="/images/atendimentorapido.webp" alt="Atendimento Rápido" width={128} height={128} className="w-32 h-32 object-contain" />
+                  <Image src="/images/atendimentorapido.webp" alt="Atendimento Agendado" width={128} height={128} className="w-32 h-32 object-contain" />
                 </div>
                 <div>
-                  <h3 className="text-xl font-bold text-slate-900 mb-3">Atendimento Rápido</h3>
+                  <h3 className="text-xl font-bold text-slate-900 mb-3">Atendimento Agendado</h3>
                   <p className="text-base text-slate-500 leading-relaxed">
                     Seu ar parou?{" "}
-                    <span className="text-corporate-800 font-semibold">Chegamos em 30 minutos.</span>{" "}
-                    Técnicos de prontidão em toda BH e região.
+                    <span className="text-corporate-800 font-semibold">Agende sua visita técnica.</span>{" "}
+                    Atendimento em Belo Horizonte e região conforme a disponibilidade da equipe.
                   </p>
                 </div>
               </div>
@@ -207,7 +207,7 @@ export default function Home() {
                     <span className="text-corporate-800 font-semibold">Zero taxa de visita em BH.</span>{" "}
                     Diagnóstico honesto e{" "}
                     <span className="text-green-600 font-bold">10% de desconto</span>{" "}
-                    para você fechar na hora.
+                    para você fechar o serviço.
                   </p>
                 </div>
               </div>
@@ -350,7 +350,7 @@ export default function Home() {
                 Como funciona o atendimento em BH?
               </h2>
               <p className="text-slate-500 text-lg">
-                É simples, rápido e sem complicação. Resolva seu ar-condicionado em 3 passos:
+                É simples, prático e sem complicação. Resolva seu ar-condicionado em 3 passos:
               </p>
             </div>
 
@@ -362,7 +362,7 @@ export default function Home() {
                 <div className="w-16 h-16 sm:w-20 sm:h-20 flex items-center justify-center mb-1 sm:mb-2">
                   <Image 
                     src="/images/icone do whatsapp.png" 
-                    alt="Chame no WhatsApp" 
+                    alt="Entre em contato" 
                     width={58} 
                     height={58} 
                     className="object-contain" 
@@ -370,30 +370,30 @@ export default function Home() {
                   />
                 </div>
                 <div>
-                  <h3 className="text-xl font-bold text-slate-900 mb-2">Chame no WhatsApp</h3>
-                  <p className="text-slate-500 text-sm leading-relaxed">Clique no botão verde e fale com um técnico agora mesmo.</p>
+                  <h3 className="text-xl font-bold text-slate-900 mb-2">Entre em contato</h3>
+                  <p className="text-slate-500 text-sm leading-relaxed">Fale com nossa equipe pelo WhatsApp.</p>
                 </div>
               </div>
 
               {/* Step 2 */}
               <div className="bg-white border border-slate-200 rounded-2xl p-6 sm:p-8 flex flex-col items-center text-center gap-4 sm:gap-5">
                 <div className="w-16 h-16 sm:w-20 sm:h-20 flex items-center justify-center mb-1 sm:mb-2">
-                  <Image src="/images/receba o tecnico.png" alt="Receba o Técnico" width={80} height={80} className="object-contain" />
+                  <Image src="/images/receba o tecnico.png" alt="Solicite seu orçamento" width={80} height={80} className="object-contain" />
                 </div>
                 <div>
-                  <h3 className="text-xl font-bold text-slate-900 mb-2">Receba o Técnico</h3>
-                  <p className="text-slate-500 text-sm leading-relaxed">Agendamos a visita no mesmo dia. Sem taxa de visita em BH!</p>
+                  <h3 className="text-xl font-bold text-slate-900 mb-2">Solicite seu orçamento</h3>
+                  <p className="text-slate-500 text-sm leading-relaxed">Explique qual serviço você precisa.</p>
                 </div>
               </div>
 
               {/* Step 3 */}
               <div className="bg-white border border-slate-200 rounded-2xl p-6 sm:p-8 flex flex-col items-center text-center gap-4 sm:gap-5">
                 <div className="w-16 h-16 sm:w-20 sm:h-20 flex items-center justify-center mb-1 sm:mb-2">
-                  <Image src="/images/problemaresolvido.png" alt="Problema Resolvido" width={80} height={80} className="object-contain" />
+                  <Image src="/images/problemaresolvido.png" alt="Agende seu atendimento" width={80} height={80} className="object-contain" />
                 </div>
                 <div>
-                  <h3 className="text-xl font-bold text-slate-900 mb-2">Problema Resolvido</h3>
-                  <p className="text-slate-500 text-sm leading-relaxed">Serviço com diagnóstico claro, orçamento aprovado e garantia total.</p>
+                  <h3 className="text-xl font-bold text-slate-900 mb-2">Agende seu atendimento</h3>
+                  <p className="text-slate-500 text-sm leading-relaxed">Combine o dia e horário conforme a disponibilidade da equipe.</p>
                 </div>
               </div>
 
@@ -528,11 +528,11 @@ export default function Home() {
             </div>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
               {[
-                { initials: "C", color: "bg-blue-500", name: "Cássia Ferreira", city: "Belo Horizonte", review: "Serviço rápido e eficiente. O técnico foi super educado, explicou o problema, deu o orçamento antes de fazer e ainda deixou tudo limpo. Recomendo demais!" },
-                { initials: "R", color: "bg-green-600", name: "Rafael Mendes", city: "Contagem", review: "Meu ar estava com um barulho estranho há meses. Chamei a San'Cruz, vieram no mesmo dia, identificaram o problema e resolveram. Aparelho voltou a funcionar perfeitamente." },
+                { initials: "C", color: "bg-blue-500", name: "Cássia Ferreira", city: "Belo Horizonte", review: "Serviço impecável e eficiente. O técnico foi super educado, explicou o problema, deu o orçamento antes de fazer e ainda deixou tudo limpo. Recomendo demais!" },
+                { initials: "R", color: "bg-green-600", name: "Rafael Mendes", city: "Contagem", review: "Meu ar estava com um barulho estranho há meses. Chamei a San'Cruz, agendamos a visita, identificaram o problema e resolveram. Aparelho voltou a funcionar perfeitamente." },
                 { initials: "P", color: "bg-purple-600", name: "Patrícia Lima", city: "Nova Lima", review: "Fiz a higienização do ar-condicionado com eles. O cheiro ruim sumiu, o aparelho voltou a gelar forte e ainda ficou mais silencioso. Ótimo custo-benefício." },
                 { initials: "L", color: "bg-red-500", name: "Lucas Oliveira", city: "Belo Horizonte", review: "Instalei dois aparelhos novos e ficou impecável. Sem furos desnecessários, sem sujeira, cabos organizados. Serviço de nível alto. Voltarei quando precisar de manutenção." },
-                { initials: "F", color: "bg-amber-500", name: "Fernanda Costa", city: "Betim", review: "Atendimento pelo WhatsApp super rápido. Agendei para o dia seguinte, o técnico chegou no horário e resolveu o vazamento de água que estava molhando minha parede. Excelente!" },
+                { initials: "F", color: "bg-amber-500", name: "Fernanda Costa", city: "Betim", review: "Atendimento pelo WhatsApp super ágil e atencioso. Agendei a visita, o técnico chegou no horário combinado e resolveu o vazamento de água que estava molhando minha parede. Excelente!" },
                 { initials: "M", color: "bg-teal-600", name: "Marcos Souza", city: "Belo Horizonte", review: "Contratei para manutenção preventiva na empresa. Equipe pontual, organizada e com toda a documentação em mãos. Já renovei o contrato para o próximo semestre." },
               ].map((r, i) => (
                 <div key={i} className="bg-white border border-slate-200 rounded-2xl p-6 flex flex-col gap-4 shadow-sm hover:shadow-md transition-shadow duration-200">
@@ -605,7 +605,7 @@ export default function Home() {
 
                 {/* Texto normal */}
                 <p className="text-slate-500 text-sm sm:text-base mb-2 leading-relaxed">
-                  Fale direto conosco pelo WhatsApp. Resposta rápida e atendimento<br className="hidden sm:block" /> personalizado.
+                  Fale direto conosco pelo WhatsApp e consulte nossa disponibilidade para um<br className="hidden sm:block" /> atendimento personalizado.
                 </p>
 
                 {/* Destaque azul */}
@@ -758,7 +758,7 @@ export default function Home() {
           className="flex items-center justify-center gap-3 w-full bg-whatsapp-500 text-white py-4 rounded-full font-extrabold text-lg shadow-[0_8px_30px_rgb(34,197,94,0.4)] hover:bg-whatsapp-600 transition-colors animate-heartbeat"
         >
           <Image src="/images/icone do whatsapp.png" alt="WhatsApp" width={26} height={26} className="brightness-0 invert object-contain" />
-          ORÇAMENTO AGORA!
+          SOLICITAR ORÇAMENTO
         </a>
       </div>
     </div>

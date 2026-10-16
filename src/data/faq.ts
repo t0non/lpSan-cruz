@@ -5,11 +5,11 @@ export const faqData = [
   },
   {
     question: "Quanto custa a manutenção de ar-condicionado em BH?",
-    answer: "O preço da <a href='/manutencao-ar-condicionado-bh' class='text-corporate-800 font-semibold hover:underline'>manutenção de ar-condicionado</a> depende do tipo de serviço necessário, seja preventiva ou corretiva. Problemas de vazamento, troca de peças ou recarga de gás possuem custos diferentes. Chegamos rapidamente e fazemos uma estimativa precisa no local sem taxa de visita para orçamentos aprovados. Fale conosco."
+    answer: "O preço da <a href='/manutencao-ar-condicionado-bh' class='text-corporate-800 font-semibold hover:underline'>manutenção de ar-condicionado</a> depende do tipo de serviço necessário, seja preventiva ou corretiva. Problemas de vazamento, troca de peças ou recarga de gás possuem custos diferentes. Agendamos sua visita técnica e fazemos uma estimativa precisa no local sem taxa de visita para orçamentos aprovados. Fale conosco."
   },
   {
     question: "Meu ar-condicionado não está gelando. O que pode ser?",
-    answer: "Quando o ar-condicionado não gela, as causas mais comuns incluem filtros sujos, vazamento de gás refrigerante, problemas no compressor ou falhas elétricas. Um técnico especializado precisa avaliar o equipamento para identificar o defeito exato. A San'Cruz realiza o <a href='/conserto-ar-condicionado-bh' class='text-corporate-800 font-semibold hover:underline'>conserto de ar-condicionado</a> com rapidez e segurança em BH."
+    answer: "Quando o ar-condicionado não gela, as causas mais comuns incluem filtros sujos, vazamento de gás refrigerante, problemas no compressor ou falhas elétricas. Um técnico especializado precisa avaliar o equipamento para identificar o defeito exato. A San'Cruz realiza o <a href='/conserto-ar-condicionado-bh' class='text-corporate-800 font-semibold hover:underline'>conserto de ar-condicionado</a> com máxima eficiência e segurança em BH."
   },
   {
     question: "Por que o ar-condicionado está pingando água?",
@@ -25,7 +25,7 @@ export const faqData = [
   },
   {
     question: "Vocês fazem conserto de ar-condicionado em BH?",
-    answer: "Sim. Realizamos assistência técnica e <a href='/conserto-ar-condicionado-bh' class='text-corporate-800 font-semibold hover:underline'>conserto de ar-condicionado</a> residencial e comercial em toda Belo Horizonte e região metropolitana. Nossa equipe técnica chega rapidamente para identificar falhas, consertar vazamentos e restaurar a climatização do seu ambiente."
+    answer: "Sim. Realizamos assistência técnica e <a href='/conserto-ar-condicionado-bh' class='text-corporate-800 font-semibold hover:underline'>conserto de ar-condicionado</a> residencial e comercial em toda Belo Horizonte e região metropolitana. Nossa equipe técnica atende mediante agendamento para identificar falhas, consertar vazamentos e restaurar a climatização do seu ambiente."
   },
   {
     question: "Ar-condicionado com mau cheiro precisa de higienização?",
